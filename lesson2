@@ -1,0 +1,47 @@
+#20231214-Lesson2
+
+
+##1.確認 Python 版本
+在終端機中輸入以下指令，可以查看您當前的 Python 版本：
+python --version
+
+#如何打開終端機
+在 **Mac** 和 **Windows** 上打開終端機的方法如下：
+
+##Mac
+1. 按下 `Command（⌘）` 鍵和 `空格鍵` 打開 Spotlight 搜索功能。
+2. 在彈出的搜索框中輸入 "Terminal"。
+3. 按下 `Enter` 鍵。
+
+##Windows
+1. 按下 `Win + R` 打開 "運行" 對話框。
+2. 輸入 "cmd"。
+3. 按下 `Enter` 鍵。
+
+
+##2.安裝指定的 library
+在 Python 中，我們通常使用 pip 來安裝 library。以下是安裝 library 的基本指令：
+pip install library_name
+
+或者
+pip3 install library_name
+
+如果您的電腦上有多個 Python 版本，您可能需要指定使用哪個版本的 pip。例如，如果您想要使用 Python 3 的 pip，您可以使用 pip3 代替 pip
+
+
+##3.安裝 numpy/jupyter/matplotlib/pandas
+請在終端機中輸入以下指令，即可安裝這些 library。
+
+pip install numpy
+pip install jupyter
+pip install matplotlib
+pip install pandas
+
+
+##4.可能遇到的問題
+1. pip 版本過舊：如果您的 pip 版本過舊，您可能無法安裝某些 library。在這種情況下，您可以使用以下指令來升級您的 pip：
+pip install --upgrade pip
+
+2. 沒有安裝 pip：如果您的電腦上沒有安裝 pip，您可以參考以下指令來安裝 pip：
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
