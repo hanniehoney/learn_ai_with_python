@@ -1,0 +1,68 @@
+#20231226-Lesson3
+
+1. 開啟編輯器
+
+編輯器與編譯器的差別
+編輯器：主要用於編寫程式碼，提供基本的語法高亮和簡單的功能。
+編譯器：除了編寫程式碼外，還能將程式碼轉換成機器碼運行。
+
+編輯器：
+- Visual Studio Code (VS Code)
+特點： 輕量、快速，支援多種程式語言，並有豐富的擴充功能。
+
+- Atom
+特點： 開源的文本編輯器，由 GitHub 開發，支援插件和主題定制。
+
+- Sublime Text
+特點： 快速、輕量，擁有豐富的插件生態系統，高度可定制。
+網址： Sublime Text
+
+編譯器：
+- PyCharm
+特點： 專業的 Python 開發環境，提供豐富的功能如除錯、測試和版本控制。 PyCharm
+- Spyder
+特點： 開源的科學計算環境，適合數據科學家和工程師使用。 Spyder
+- Thonny
+特點： 專為初學者設計的輕量級 Python IDE，提供簡單的用戶界面。 Thonny
+
+
+開啟編輯器並運行 code 步驟：
+1. 下載並安裝 Visual Studio Code（下載頁面）。
+2. 打開 VS Code。
+3. 創建一個新的 Python 檔案（.py）。
+4. 在檔案中簡單編寫 Python code。
+5. 選擇執行（Run）或使用快捷鍵（通常是 Ctrl + Enter）運行 code。
+
+
+2. 使用 numpy/matplotlib/pandas 函式
+
+# Import libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create a NumPy array
+arr = np.array([1, 2, 3, 4, 5])
+
+# Create a Pandas DataFrame
+df = pd.DataFrame({'Column1': [1, 2, 3, 4, 5], 'Column2': ['A', 'B', 'C', 'D', 'E']})
+
+# Plot a simple graph using Matplotlib
+plt.plot(arr)
+plt.title('Simple Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.show()
+
+
+3. 可能遇到的問題
+
+1. pip 版本過舊：升級 pip
+pip install --upgrade pip
+
+2. 沒有安裝 pip：安裝 pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+3. 編輯器選擇：解釋 Visual Studio Code 的優勢和基本操作，以及其他知名編譯器的特點。
+4. 運行 code 問題：確保選擇正確的 Python 解釋器，並使用正確的快捷鍵運行 code。
